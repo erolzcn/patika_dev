@@ -1,0 +1,28 @@
+Insertion sort yapılacak array, [22,27,16,2,18,6]
+
+1. Insertion Sort Algoritması
+1 [2, 27, 16 , 22 , 18, 6]
+2 [2, 6, 16, 22, 18, 27]
+3 [2, 6, 16, 22, 18, 27]
+4 [2, 6, 16, 18, 22, 27]
+5 Tamamlandı
+
+2. Big-O Gösterimi
+Insertion sort'un Big-O su O(nˆ2) olarak gösterilir. 
+Array de 6 eleman olduğu için O(6ˆ2) = 36 olarak gösterilebilir.
+
+3. Time Complexity Analysis
+Array'imiz 6 elemanlıdır.
+Best Case: Array in istenen sırada olması durumudur. Big_O olarak O(n) gösterimi vardır. => O(6) = 6
+Worst Case: Array'in en kötü sırada olması durumu burada yer değişecek elemanların listenin en sonunda olduğunu söyleyebiliriz. Bu durumda Big-O yu O(nˆ2) olarak göstereceğiz => O(6^2)=36
+Average Case: Average case in Big-O notasyonu Worst Case ile aynı notasyona sahip olup O(nˆ2) olarak gösterilir. => O(6^2) = 36
+
+4. Dizi sıralandıktan sonra 18 sayısı array de olması gereken yerde olan 3. sıradadır. Buda onun Best case durumunda olduğunun göstergesidir. 
+
+
+5. [7,3,5,8,2,9,4,15,6] serisiniz Imsertion Sort a göre ilk 4 adımı.
+
+1 [2,3,5,8,7,9,4,15,6]
+2 [2,3,5,8,7,9,4,15,6]
+3 [2,3,4,8,7,9,5,15,6]
+4 [2,3,4,5,7,9,8,15,6]
