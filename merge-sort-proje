@@ -1,4 +1,4 @@
-[16,21,11,8,12,22] 
+Array => [16,21,11,8,12,22] 
 
 1. Merge Sort Algoritması
 [16,21,11] - [8,12,22]
@@ -9,6 +9,5 @@
 [8,11,12,16,21,22]
 
 2. Big-O Notasyonu
-
 O(n*logn) Array eleman sayısı 6,  
 O(6log6)
